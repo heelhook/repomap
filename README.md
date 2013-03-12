@@ -2,6 +2,10 @@
 
 #### Analyze file relationships in a git repository
 
+Repomap is a gem that creates a neo4j graph of a git repository files, analyzing
+how often separate files are committed together, in order to create a map of the
+most important files and the relationship among all the files in the project.
+
 ## License
 
 ### The MIT License (MIT)
